@@ -1,0 +1,46 @@
+{
+  "editor.fontFamily": "'Iosevka', 'Droid Sans Mono', 'monospace', monospace",
+  "files.autoSave": "afterDelay",
+  "editor.inlineSuggest.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.menuBarVisibility": "toggle",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.rulers": [
+    {
+      "column": 70,
+      "color": "#4e4d5e"
+    },
+    {
+      "column": 110,
+      "color": "#465849"
+    }
+  ],
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  "vsicons.dontShowNewVersionMessage": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": true,
+    "javascriptreact": true
+  },
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.lineHeight": 2.5,
+  "workbench.colorTheme": "JellyFish",
+  "git.autofetch": true,
+  "git.confirmSync": false
+}
